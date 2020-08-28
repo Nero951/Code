@@ -1,0 +1,33 @@
+
+T2F40 000:005 SEGGER J-Link V6.16c Log File (0001ms, 0006ms total)
+T2F40 000:005 DLL Compiled: Jun 16 2017 18:14:49 (0001ms, 0006ms total)
+T2F40 000:005 Logging started @ 2020-08-28 10:03 (0001ms, 0006ms total)
+T2F40 000:006 JLINK_SetWarnOutHandler(...) (0001ms, 0007ms total)
+T2F40 000:007 JLINK_OpenEx(...)
+Firmware: J-Link OB-STM32F072-CortexM compiled Sep 26 2016 10:03:56
+Hardware: V1.00
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDIWEBSRV Webserver running on local port 19080 (2406ms, 2413ms total)
+T2F40 000:007   returns O.K. (2406ms, 2413ms total)
+T2F40 002:413 JLINK_GetEmuCaps()  returns 0xB8EA5A33 (0000ms, 2413ms total)
+T2F40 002:413 JLINK_TIF_GetAvailable(...) (0001ms, 2414ms total)
+T2F40 002:414 JLINK_SetErrorOutHandler(...) (0000ms, 2414ms total)
+T2F40 002:414 JLINK_ExecCommand("ProjectFile = "C:\Users\Wade Winston Wilson\Desktop\STM32_project\JLinkSettings.ini"", ...).   returns 0x00 (0119ms, 2533ms total)
+T2F40 002:539 JLINK_ExecCommand("Device = STM32F429IG", ...). Device "STM32F429IG" selected.  returns 0x00 (0008ms, 2542ms total)
+T2F40 002:548 JLINK_ExecCommand("DisableConnectionTimeout", ...).   returns 0x01 (0000ms, 2542ms total)
+T2F40 002:548 JLINK_GetHardwareVersion()  returns 0x2710 (0001ms, 2543ms total)
+T2F40 002:549 JLINK_GetDLLVersion()  returns 61603 (0000ms, 2543ms total)
+T2F40 002:549 JLINK_GetFirmwareString(...) (0000ms, 2543ms total)
+T2F40 002:560 JLINK_GetDLLVersion()  returns 61603 (0000ms, 2543ms total)
+T2F40 002:560 JLINK_GetCompileDateTime() (0000ms, 2543ms total)
+T2F40 002:563 JLINK_GetFirmwareString(...) (0000ms, 2543ms total)
+T2F40 002:567 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 2543ms total)
+T2F40 002:577 JLINK_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0000ms, 2543ms total)
+T2F40 002:577 JLINK_SetSpeed(10000) (0001ms, 2544ms total)
+T2F40 002:578 JLINK_GetId() >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF>
+ >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+STM32 (connect): Can not attach to CPU. Trying connect under reset. >0x10B TIF>Found SW-DP with ID 0x2BA01477 >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x28 TIF> >0x0D TIF> >0x21 TIF> >0x0D TIF> >0x21 TIF>
+  ***** Error: STM32: Connecting to CPU via connect under reset failed.  returns 0x00000000 (0295ms, 2839ms total)
+T2F40 004:143 JLINK_Close() (0016ms, 2855ms total)
+T2F40 004:143  (0016ms, 2855ms total)
+T2F40 004:143 Closed (0016ms, 2855ms total)
