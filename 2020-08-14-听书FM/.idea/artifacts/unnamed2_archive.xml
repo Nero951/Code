@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="unnamed2 archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed2_archive</output-path>
+    <root id="archive" name="unnamed2 archive.war">
+      <element id="artifact" artifact-name="unnamed2" />
+    </root>
+  </artifact>
+</component>
