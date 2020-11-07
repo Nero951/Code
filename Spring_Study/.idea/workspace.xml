@@ -13,6 +13,13 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -28,19 +35,45 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_271" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-study/src/main/resources/public" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="nero.springbootstudy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Program Java\GitHub\Spring_Study\springboot-study\src\main\resources\public" />
+      <recent name="D:\Program Java\GitHub\Spring_Study\springboot-study\src\main\resources\public\TestFile" />
+      <recent name="D:\Program Java\GitHub\Spring_Study\springboot-study\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootStudyApplication">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="spring-study" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootStudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-study" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="nero.springbootstudy.SpringbootStudyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -61,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604647386871</updated>
-      <workItem from="1604647388773" duration="3810000" />
+      <workItem from="1604647388773" duration="32065000" />
     </task>
     <servers />
   </component>
@@ -73,29 +106,89 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="276" y="47" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1604647422622" />
-    <state width="1308" height="190" key="GridCell.Tab.0.bottom" timestamp="1604656358004">
+    <state x="96" y="0" width="1270" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604732285947">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604656358004" />
-    <state width="1308" height="190" key="GridCell.Tab.0.center" timestamp="1604656358004">
+    <state x="96" y="0" width="1270" height="768" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604732285947" />
+    <state x="511" y="89" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1604732279557">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604656358004" />
-    <state width="1308" height="190" key="GridCell.Tab.0.left" timestamp="1604656358003">
+    <state x="511" y="89" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.768@0.0.1366.768" timestamp="1604732279557" />
+    <state x="479" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1604681572712">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604656358003" />
-    <state width="1308" height="190" key="GridCell.Tab.0.right" timestamp="1604656358004">
+    <state x="479" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1604681572712" />
+    <state x="218" y="315" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604738296069">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1308" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604656358004" />
+    <state x="218" y="315" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1604738296069" />
+    <state x="430" y="249" width="507" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604738278688">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="430" y="249" width="507" height="285" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1604738278688" />
+    <state x="430" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1604738297981">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="430" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.768@0.0.1366.768" timestamp="1604738297981" />
+    <state width="1308" height="190" key="GridCell.Tab.0.bottom" timestamp="1604748226826">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604748226826" />
+    <state width="1308" height="190" key="GridCell.Tab.0.center" timestamp="1604748226825">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604748226825" />
+    <state width="1308" height="190" key="GridCell.Tab.0.left" timestamp="1604748226825">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604748226825" />
+    <state width="1308" height="190" key="GridCell.Tab.0.right" timestamp="1604748226825">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604748226825" />
+    <state width="1308" height="190" key="GridCell.Tab.1.bottom" timestamp="1604748226826">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604748226826" />
+    <state width="1308" height="190" key="GridCell.Tab.1.center" timestamp="1604748226826">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1604748226826" />
+    <state width="1308" height="190" key="GridCell.Tab.1.left" timestamp="1604748226826">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1604748226826" />
+    <state width="1308" height="190" key="GridCell.Tab.1.right" timestamp="1604748226826">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="190" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604748226826" />
+    <state width="1308" height="236" key="GridCell.Tab.2.bottom" timestamp="1604735336717">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="236" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604735336717" />
+    <state width="1308" height="236" key="GridCell.Tab.2.center" timestamp="1604735336717">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="236" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1604735336717" />
+    <state width="1308" height="236" key="GridCell.Tab.2.left" timestamp="1604735336717">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="236" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1604735336717" />
+    <state width="1308" height="236" key="GridCell.Tab.2.right" timestamp="1604735336717">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1308" height="236" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1604735336717" />
     <state x="215" y="32" key="SettingsEditor" timestamp="1604648242866">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="215" y="32" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1604648242866" />
-    <state x="0" y="10" key="new project wizard" timestamp="1604648467998">
+    <state x="0" y="10" key="new project wizard" timestamp="1604732625216">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="0" y="10" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1604648467998" />
+    <state x="0" y="10" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1604732625216" />
+    <state x="347" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604743617383">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="347" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1604743617383" />
   </component>
 </project>

@@ -3,4 +3,58 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 通过bean标签定义bean对象，Spring Bean容器是通过id来进行管理的，id相当于bean的名称，Spring可以通过id找到bean对象
+
+     默认是单例模式
+     -->
+    <!-- 通过无参的构造方法，创建一个对象，如果该类型没有无参的构造方法，就会报错 -->
+    <bean id="bit" class="java.lang.String">
+        <constructor-arg value="Hello"></constructor-arg>
+    </bean>
+    <!--    <bean class="java.lang.String"></bean>-->
+    <bean id="s1" class="java.lang.String">
+        <constructor-arg value="jie"/>
+    </bean>
+
+    <bean id="duck_1" class="test.Duck">
+        <property name="name" value="s1"></property>
+        <property name="age" value="22"></property>
+    </bean>
+    <bean id="duck_2" class="test.Duck">
+        <property name="name" value="s2"></property>
+        <property name="age" value="24"></property>
+    </bean>
+    <bean id="duck_3" class="test.Duck">
+        <property name="name" value="s3"></property>
+        <property name="age" value="229"></property>
+    </bean>
+    <bean id="shop" class="test.DuckShop">
+        <property name="ducks">
+            <list>
+                <ref bean="duck_1"/>
+                <ref bean="duck_2"/>
+                <ref bean="duck_3"/>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="d3" class="test.Duck3">
+        <property name="name" value="beijing"/>
+        <property name="age" value="2"/>
+        <property name="next" ref="d4"/>
+    </bean>
+    <bean id="d4" class="test.Duck3">
+        <property name="name" value="tina"/>
+        <property name="age" value="3"/>
+        <property name="next" ref="d5"/>
+    </bean>
+    <bean id="d5" class="test.Duck3">
+        <property name="name" value="q"/>
+        <property name="age" value="1"/>
+    </bean>
+
+    <bean id="d2" class="test.Duck2">
+        <constructor-arg name="n" value="卡卡"/>
+        <constructor-arg name="a" value="4"/>
+    </bean>
 </beans>
