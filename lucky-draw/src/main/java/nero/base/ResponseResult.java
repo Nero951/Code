@@ -1,0 +1,36 @@
+package nero.base;
+
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@ToString
+@Getter
+@Setter
+public class ResponseResult {
+
+    /**
+     * 定义异常，返回给前端响应状态码是200
+     *前端可以通过success字段，判断是显示正确的业务数据，还是错误码+错误信息
+     * 前端：
+     * if(响应数据.success){
+     *     显示data字段的数据
+     * }else{
+     *     显示code错误码+message错误信息
+     * }
+     *
+     */
+    private boolean success;
+    private Object data;
+    private String code;
+    private String message;
+
+    private ResponseResult(){}
+
+    public static ResponseResult ok(Object o){
+        ResponseResult r = new ResponseResult();
+        r.success = true;
+        r.data = o;
+        return r;
+    }
+}
