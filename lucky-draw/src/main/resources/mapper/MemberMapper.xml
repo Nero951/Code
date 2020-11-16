@@ -110,7 +110,7 @@
     </trim>
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
-    select id, name, no, user_id, create_time
+    select id, username, no, user_id, create_time
     from member
   </select>
   <select id="selectByCondition" parameterType="nero.model.Member" resultMap="BaseResultMap">
@@ -139,4 +139,5 @@
       #{item}
     </foreach>
   </delete>
+
 </mapper>

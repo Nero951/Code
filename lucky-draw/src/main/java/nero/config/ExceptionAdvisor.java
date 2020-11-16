@@ -1,12 +1,15 @@
 package nero.config;
 
 import lombok.extern.slf4j.Slf4j;
+import nero.exception.BaseException;
+import nero.base.ResponseResult;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.method.annotation.MethodArgumentTypeMismatchException;
 import org.springframework.web.server.MethodNotAllowedException;
@@ -45,7 +48,7 @@ public class ExceptionAdvisor {
     }
 
     @ExceptionHandler(NoHandlerFoundException.class)
-    @ResponseStatus(HttpStatus.NOT_FOUND)
+    @ResponseStatus(HttpStatus.NOT_FOUND)//响应状态码404，响应体为null
     public void handleNoHandlerFoundException(Throwable e){
         log.debug("================================");
         log.debug("找不到http请求处理器", e);
@@ -58,22 +61,25 @@ public class ExceptionAdvisor {
      * }catch(){===>@ExceptionHandler需要捕获的异常类
      *     调用方法
      * }
+     * 日志的使用：
+     * 日志级别由低到高：trace、debug、info、warn、error
+     * 根据配置的日志打印级别，调用方法>=配置的级别，就会打印
      */
-//    @ExceptionHandler(BaseException.class)
-//    @ResponseStatus(HttpStatus.OK)
-//    @ResponseBody
-//    public Object handleBaseException(BaseException e){
-//        log.debug("================================");
-//        log.debug("服务端自定义异常", e);
-//        return ResponseResult.error(e.getCode(), e.getMessage());
-//    }
-//
-//    @ExceptionHandler(Throwable.class)
-//    @ResponseStatus(HttpStatus.OK)
-//    @ResponseBody
-//    public Object handleException(Throwable e){
-//        log.error("================================");
-//        log.error("未知异常", e);
-//        return ResponseResult.error();
-//    }
+    @ExceptionHandler(BaseException.class)
+    @ResponseStatus(HttpStatus.OK)//返回响应状态码200
+    @ResponseBody
+    public Object handleBaseException(BaseException e){
+        log.debug("================================");
+        log.debug("服务端自定义异常", e);
+        return ResponseResult.error(e.getCode(), e.getMessage());
+    }
+
+    @ExceptionHandler(Throwable.class)
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    public Object handleException(Throwable e){
+        log.error("================================");
+        log.error("未知异常", e);
+        return ResponseResult.error();
+    }
 }
