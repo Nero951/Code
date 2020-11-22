@@ -105,7 +105,7 @@
     select 
     <include refid="Base_Column_List" />
     from award
-    <trim prefix="where" suffixOverrides="and">
+    <trim prefix="where" prefixOverrides="and">
       <if test="name != null">
        and name = #{name,jdbcType=VARCHAR}
       </if>

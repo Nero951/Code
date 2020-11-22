@@ -162,3 +162,11 @@ insert into member(name, no, user_id) values ('缪荌荌', 'no87', 1);
 insert into member(name, no, user_id) values ('闻人幼丝', 'no88', 1);
 insert into member(name, no, user_id) values ('绍美曼', 'no89', 1);
 insert into member(name, no, user_id) values ('回访波', 'no90', 1);
+
+-- 插入抽奖记录
+insert into record(member_id, award_id) values(78, 1);
+insert into record(member_id, award_id) values(39, 2);
+insert into record(member_id, award_id) values(67, 2);
+insert into record(member_id, award_id) values(89, 3);
+insert into record(member_id, award_id) values(12, 3);
+insert into record(member_id, award_id) values(33, 3);

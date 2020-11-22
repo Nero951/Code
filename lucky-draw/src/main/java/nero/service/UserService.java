@@ -12,12 +12,12 @@ public class UserService {
     private UserMapper userMapper;
 
     public User login(User user) {
-//        User exits = userMapper.login(user);
+//        User exits = userMapper.selectOne(user);
 //        if(exits == null)
 //            throw new ClientException("user001", "用户名密码校验失败！");
         User query = new User();
         query.setUsername(user.getUsername());
-        User exits = userMapper.login(query);
+        User exits = userMapper.selectOne(query);
         if(exits == null)
             throw new ClientException("user001", "用户不存在！");
         if(!exits.getPassword().equals(user.getPassword()))

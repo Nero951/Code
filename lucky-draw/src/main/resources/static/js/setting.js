@@ -1,4 +1,4 @@
-window.vm = new Vue({
+ window.vm = new Vue({
     el: '#app',
     data: {
         batchNumber: 0,

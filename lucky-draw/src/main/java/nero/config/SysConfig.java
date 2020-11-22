@@ -4,6 +4,7 @@ import nero.config.web.RequestResponseBodyMethodProcessorWrapper;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodReturnValueHandler;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;
@@ -32,6 +33,15 @@ public class SysConfig implements WebMvcConfigurer, InitializingBean{
             }
         }
         adapter.setReturnValueHandlers(handlers);
+    }
+
+    @Override
+    public void addInterceptors(InterceptorRegistry registry) {
+        registry.addInterceptor()
+                .addPathPatterns("/api/**")
+                .excludePathPatterns("/api/user/login")
+                .excludePathPatterns("/api/user/register")
+                .excludePathPatterns("/api/user/logout");
     }
 
     @Override
