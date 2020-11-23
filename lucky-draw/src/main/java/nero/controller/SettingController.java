@@ -1,9 +1,14 @@
 package nero.controller;
 
+import nero.model.Setting;
+import nero.model.User;
 import nero.service.SettingService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.HttpSession;
 
 @RestController
 @RequestMapping("/setting")
@@ -21,9 +26,11 @@ public class SettingController {
      * @param session
      * @return
      */
-//    @GetMapping("/query")
-//    public Object query(HttpSession session){
-//        User user = (User) session.getAttribute("user");
-//        Setting setting = settingService.query(user.getId());
-//    }
+    @GetMapping("/query")
+    public Object query(HttpSession session){
+        User user = (User) session.getAttribute("user");
+        Setting setting = settingService.query(user.getId());
+        setting.setUser(user);
+        return setting;
+    }
 }

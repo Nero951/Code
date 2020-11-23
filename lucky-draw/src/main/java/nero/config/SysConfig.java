@@ -1,7 +1,10 @@
 package nero.config;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import nero.config.interceptor.LoginInterceptor;
 import nero.config.web.RequestResponseBodyMethodProcessorWrapper;
 import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodReturnValueHandler;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -20,6 +23,9 @@ public class SysConfig implements WebMvcConfigurer, InitializingBean{
     @Resource
     private RequestMappingHandlerAdapter adapter;
 
+    @Autowired
+    private ObjectMapper objectMapper;
+
     //之前以@ControllerAdvice+实现ResponseBodyAdvice接口，完成统一处理返回数据包装，无法解决返回值为null的状况
     //改用这种方式，可以解决返回null包装为自定义类型
     @Override
@@ -37,11 +43,12 @@ public class SysConfig implements WebMvcConfigurer, InitializingBean{
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor()
+        registry.addInterceptor(new LoginInterceptor(objectMapper))
                 .addPathPatterns("/api/**")
                 .excludePathPatterns("/api/user/login")
                 .excludePathPatterns("/api/user/register")
-                .excludePathPatterns("/api/user/logout");
+                .excludePathPatterns("/api/user/logout ");
+
     }
 
     @Override

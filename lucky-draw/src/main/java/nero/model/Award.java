@@ -6,6 +6,7 @@ import lombok.ToString;
 import nero.base.BaseEntity;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  * 奖项
@@ -41,4 +42,9 @@ public class Award extends BaseEntity {
      * 创建时间
      */
     private Date createTime;
+
+    /**
+     * 中将人员名单
+     */
+    private List<Integer> luckyMemberIds;
 }
