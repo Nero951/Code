@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\JAVA\M2Repository" />
+        <option name="userSettingsFile" value="D:\JAVA\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kjLjpLkIb1Z0sjO6Fgydo10Gnm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_271" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager" selected="Application.DrinkTest">
+    <configuration name="DrinkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrinkTest" />
+      <module name="Test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="Test1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DrinkTest" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f6ccbd3-83d9-473b-a107-c60defd41c1c" name="Default Changelist" comment="" />
+      <created>1606209191230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606209191230</updated>
+      <workItem from="1606209193946" duration="7413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Project_Structure" timestamp="1606209207118">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1606209207118" />
+    <state width="1324" height="192" key="GridCell.Tab.0.bottom" timestamp="1606218029396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606218029396" />
+    <state width="1324" height="192" key="GridCell.Tab.0.center" timestamp="1606218029396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606218029396" />
+    <state width="1324" height="192" key="GridCell.Tab.0.left" timestamp="1606218029395">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606218029395" />
+    <state width="1324" height="192" key="GridCell.Tab.0.right" timestamp="1606218029396">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606218029396" />
+    <state x="0" y="5" key="new project wizard" timestamp="1606209265046">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="5" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1606209265046" />
+  </component>
+</project>
