@@ -39,14 +39,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_271" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager" selected="Application.MainTest">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MainTest" />
+  <component name="RunManager" selected="Application.DeleteNumber">
+    <configuration name="DeleteNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.DeleteNumber" />
       <module name="Test1" />
       <extension name="coverage">
         <pattern>
@@ -58,23 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MainTest1" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.MainTest" />
       <module name="Test1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MainTest2" />
-      <module name="Test1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solution.MainTest3" />
-      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,13 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PopSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.PopSort" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solution.PopSort2" />
+      <module name="Test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solution.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteNumber" />
+        <item itemvalue="Application.PopSort2" />
+        <item itemvalue="Application.PopSort" />
         <item itemvalue="Application.MainTest" />
         <item itemvalue="Application.MainTest6" />
-        <item itemvalue="Application.MainTest3" />
-        <item itemvalue="Application.MainTest2" />
-        <item itemvalue="Application.MainTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +133,8 @@
       <updated>1606209191230</updated>
       <workItem from="1606209193946" duration="8237000" />
       <workItem from="1606400999434" duration="9255000" />
-      <workItem from="1606556683763" duration="23231000" />
+      <workItem from="1606556683763" duration="25050000" />
+      <workItem from="1606819960458" duration="5765000" />
     </task>
     <servers />
   </component>
@@ -130,38 +150,42 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="488" y="100" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1606575824868" />
-    <state width="1324" height="192" key="GridCell.Tab.0.bottom" timestamp="1606657485055">
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1606789849703">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606657485055" />
-    <state width="1324" height="192" key="GridCell.Tab.0.center" timestamp="1606657485054">
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606789849703" />
+    <state width="1324" height="192" key="GridCell.Tab.0.bottom" timestamp="1606824774615">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606657485054" />
-    <state width="1324" height="192" key="GridCell.Tab.0.left" timestamp="1606657485054">
+    <state width="1324" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606824774615" />
+    <state width="1324" height="192" key="GridCell.Tab.0.center" timestamp="1606824774615">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606657485054" />
-    <state width="1324" height="192" key="GridCell.Tab.0.right" timestamp="1606657485054">
+    <state width="1324" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1606824774615" />
+    <state width="1324" height="192" key="GridCell.Tab.0.left" timestamp="1606824774615">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606657485054" />
-    <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1606485916179">
+    <state width="1324" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1606824774615" />
+    <state width="1324" height="192" key="GridCell.Tab.0.right" timestamp="1606824774615">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606485916179" />
-    <state width="1324" height="239" key="GridCell.Tab.1.center" timestamp="1606485916179">
+    <state width="1324" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1606824774615" />
+    <state width="1324" height="239" key="GridCell.Tab.1.bottom" timestamp="1606820602041">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1606485916179" />
-    <state width="1324" height="239" key="GridCell.Tab.1.left" timestamp="1606485916179">
+    <state width="1324" height="239" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1606820602041" />
+    <state width="1324" height="239" key="GridCell.Tab.1.center" timestamp="1606820602040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1606485916179" />
-    <state width="1324" height="239" key="GridCell.Tab.1.right" timestamp="1606485916179">
+    <state width="1324" height="239" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1606820602040" />
+    <state width="1324" height="239" key="GridCell.Tab.1.left" timestamp="1606820602040">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1324" height="239" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606485916179" />
+    <state width="1324" height="239" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1606820602040" />
+    <state width="1324" height="239" key="GridCell.Tab.1.right" timestamp="1606820602040">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1324" height="239" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1606820602040" />
     <state x="0" y="5" key="new project wizard" timestamp="1606209265046">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
